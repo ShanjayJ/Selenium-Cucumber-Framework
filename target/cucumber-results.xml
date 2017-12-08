@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="37.294631">
+<testcase classname="" name="Test Facebook Login Page" time="11.663038">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.selenium.scenario.scenario1.i_provide_valid_username_and_Password(scenario1.java:30)&#13;&#10;&#9;at ✽.When I provide valid &quot;sanjayjoe2020@gmail.com&quot; and &quot;password1&quot;(MyApplication.feature:24)&#13;&#10;"><![CDATA[Given open Firefox and start application....................................passed
+When I provide valid "sanjayjoe2020@gmail.com" and "password1"..............failed
+Then User Should be able to login...........................................skipped
+Then Close the browser......................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.selenium.scenario.scenario1.i_provide_valid_username_and_Password(scenario1.java:30)
+	at ✽.When I provide valid "sanjayjoe2020@gmail.com" and "password1"(MyApplication.feature:24)
+]]></failure>
+</testcase>
+<testcase classname="" name="Test Facebook Login Page 2" time="13.1294">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.selenium.scenario.scenario1.i_provide_valid_username_and_Password(scenario1.java:30)&#13;&#10;&#9;at ✽.When I provide valid &quot;sanjayjoe1993@gmail.com&quot; and &quot;password2&quot;(MyApplication.feature:24)&#13;&#10;"><![CDATA[Given open Firefox and start application....................................passed
+When I provide valid "sanjayjoe1993@gmail.com" and "password2"..............failed
+Then User Should be able to login...........................................skipped
+Then Close the browser......................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.selenium.scenario.scenario1.i_provide_valid_username_and_Password(scenario1.java:30)
+	at ✽.When I provide valid "sanjayjoe1993@gmail.com" and "password2"(MyApplication.feature:24)
+]]></failure>
+</testcase>
+<testcase classname="" name="Test Facebook Login Page 3" time="12.502193">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.selenium.scenario.scenario1.i_provide_valid_username_and_Password(scenario1.java:30)&#13;&#10;&#9;at ✽.When I provide valid &quot;sanjayjoe2232@gmail.com&quot; and &quot;password3&quot;(MyApplication.feature:24)&#13;&#10;"><![CDATA[Given open Firefox and start application....................................passed
+When I provide valid "sanjayjoe2232@gmail.com" and "password3"..............failed
+Then User Should be able to login...........................................skipped
+Then Close the browser......................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.selenium.scenario.scenario1.i_provide_valid_username_and_Password(scenario1.java:30)
+	at ✽.When I provide valid "sanjayjoe2232@gmail.com" and "password3"(MyApplication.feature:24)
+]]></failure>
+</testcase>
+</testsuite>

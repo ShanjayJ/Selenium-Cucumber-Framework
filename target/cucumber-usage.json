@@ -1,0 +1,28 @@
+[
+  {
+    "source": "^open Firefox and start application$",
+    "steps": [
+      {
+        "name": "open Firefox and start application",
+        "aggregatedDurations": {
+          "average": 12.428693739,
+          "median": 12.501721388
+        },
+        "durations": [
+          {
+            "duration": 11.655574599,
+            "location": "MyApplication.feature:23"
+          },
+          {
+            "duration": 13.128785232,
+            "location": "MyApplication.feature:23"
+          },
+          {
+            "duration": 12.501721388,
+            "location": "MyApplication.feature:23"
+          }
+        ]
+      }
+    ]
+  }
+]
